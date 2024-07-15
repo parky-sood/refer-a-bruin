@@ -1,0 +1,69 @@
+.react-pdf__Page__canvas
+{
+    display: block; 
+    user-select: none;
+    
+    height: 400px;
+}
+.react-pdf__Document
+{
+    height: 500px;
+    
+}
+
+/* ResumeViewer.css */
+
+.resume-viewer-container {
+    margin-top: 100px;
+  }
+  /* This changes the spacing of the buttons */
+  .comment-button {
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  .comments-section {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 585px;
+  }
+  
+  .comment-input {
+    margin-bottom: 10px;
+  }
+  
+  /* Copied the css from sign up button  */
+.submit-button,.comment-button{
+  padding: 12px 20px; /* Increased padding */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Added margin top */
+  transition: background-color 0.3s;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* Had to change the color because the other color was fading into the screen */
+.submit-button:hover,.comment-button:hover {
+  background-color: #93c4f8;
+}
+
+.label{
+  font-display: bold;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.divider{
+  height: 2px;
+  width: 100%; 
+  /* Controls the length of the divider */
+  background-color: #ccc;
+  margin-bottom: 20px; 
+  margin-top: -10px; 
+  /* margin below the divider */
+}

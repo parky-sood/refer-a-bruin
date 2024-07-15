@@ -1,0 +1,26 @@
+/* VisitNavBar.css */
+
+.rightt-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.login-sign-title {
+    color: white; /* Title color */
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-left: 20px; /* Space between each link */
+}
+
+.login-sign-title:hover {
+    background-color: #111; /* Hover effect */
+}
+
+@media all and (max-width: 400px) {
+    .container {
+      display: flex;
+      flex: 1;
+      flex-basis: 100%;
+      flex-wrap: wrap;
+    }}

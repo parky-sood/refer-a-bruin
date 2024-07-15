@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+.env
+fb.js
+FBAdmin.json
+# Editor-based HTTP Client requests
+/httpRequests/

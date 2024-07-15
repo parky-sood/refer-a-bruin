@@ -1,0 +1,95 @@
+/* Internships.css */
+/* Filter section styles */
+
+/* Container styles */
+.filter-container {
+  margin-top: 200px;
+  justify-content: center;
+  position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.filter-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 auto; /* Center horizontally */
+  margin-bottom: 20px;
+  max-width: 550px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.filter-container h5 {
+  margin-bottom: 15px;
+}
+
+/* Filter section styles */
+.filter-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px; /* Adjust margin between filter and job listing */
+}
+
+.filter-section h5 {
+  margin-bottom: 20px;
+}
+
+/* Job listing section styles */
+.job-listing-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin between job cards */
+  margin-bottom: 20px;
+}
+
+.job-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card .card-title {
+  font-weight: bold;
+}
+
+.job-card .card-text {
+  margin-bottom: 10px;
+}
+
+.job-card .btn {
+  margin-top: auto;
+}
+
+
+.intern-icon{
+  width:20px;
+  height:20px;
+  padding-right: 5px;
+}
+.intern-button{
+  font-style: bold;
+}
+.intern-button:hover{
+  background-color: #0e59a9;
+ 
+}
+
+.labell-i{
+  font-family: 'Arial', sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+.padding-job{
+  padding:40px;
+  border: 1px solid #ccc; /* Adjust border style and color as needed */
+  border-radius: 5px;
+  padding: 40px;
+  border-radius: 6px;
+}

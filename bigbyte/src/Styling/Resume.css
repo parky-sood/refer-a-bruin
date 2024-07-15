@@ -1,0 +1,84 @@
+/* CSS for Resume component */
+.Resume {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS for form elements */
+.form-elements {
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px; 
+    /* Margin above form elements */
+}
+
+.form-elements * {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.mt-5 {
+    background-color: #f9f9f9; 
+    max-width: 600px;
+    margin-top: 20px; 
+    /* Margin above form container */
+    padding: 20px;
+}
+
+.container-resume {
+    background-color: #ffffff; 
+    padding: 10px;
+    border-radius: 20px;
+    /* shadow effect for the box  */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    height: 500px;
+}
+
+
+.resume-title {
+    margin-top: 60px;
+     /* Margin above the title */
+    color: #ffffff; 
+    font-size: 36px; 
+    font-weight: bold;
+}
+
+.upload-icon {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    /* Margin below the upload icon */
+    width: 100px;
+    height: 100px; 
+    /* Size of the upload icon */
+}
+
+/* CSS for the divider */
+.divider {
+    height: 2px;
+    width: 400px; 
+    /* Controls the length of the divider */
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    /* margin below the divider */
+}
+
+.label {
+    /* margin below the label */
+    margin-bottom: 20px; 
+}
+
+.uploaded-file, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* margin above the uploaded file section */
+    margin-top: 20px;
+}

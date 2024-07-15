@@ -1,0 +1,101 @@
+.create-internship-container {
+    /* Extra space on both top and bottom */
+    margin-top: 50px; /* Adjust this value to bring the form down */
+    margin-bottom: 300px;
+    margin-bottom: 300px;
+    padding: 0 150px; 
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+}
+
+.create-internship-content {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    /* Slightly increased shadow */
+    box-shadow: 10px 10px 8px rgba(6, 4, 4, 0.631); 
+    /* Added margin top */
+    margin-top: -50px; 
+    /* width I thought looked best  */
+    width: 700px; 
+}
+
+.title-mentor {
+    position: absolute;
+    top: 0;
+    margin: 120px 20px;
+}
+
+.create-internship-content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    /* Darker text color */
+    color: #333333; 
+}
+
+.internship-form .form-group {
+    margin-bottom: 20px; /* Increased margin bottom */
+}
+
+.internship-form .btn-primary {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Increased padding */
+    margin-top: 20px; /* Added margin top */
+    width: 25%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+}
+
+.internship-form .btn-primary:hover {
+    background-color: #0e59a9;
+}
+
+.background-layer-ci {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://ca-times.brightspotcdn.com/dims4/default/7c16d00/2147483647/strip/false/crop/6514x4343+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F33%2F3b%2F62c235a6449c90f93df716b5e0e1%2F1297686-me-uc-ucla-campus-jlc-0517-10671.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    /* By doing the background image, I needed to lower the brightness, I needed to reduce the brightness of the header */
+    filter: brightness(60%); 
+    /* Wanted to make sure that the background does not effect the design of the other components */
+    z-index: -1;
+    height: 450px;
+  }
+  /* I used a lot of home.css and tried to combine into the different text components */
+  
+  .h1{
+     /* If you want to change the height of the h1, its dealing with the margin top */
+    margin-top: -450px;
+    font-size: 55px;
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .p{
+    font-size: 20px;
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: -20px; */
+    color: #fff;
+  }

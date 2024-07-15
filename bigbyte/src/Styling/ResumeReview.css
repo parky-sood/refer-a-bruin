@@ -1,0 +1,52 @@
+.resume-review-title {
+  margin-top: 60px;
+   /* Margin above the title */
+  color: #ffffff; 
+  font-size: 36px; 
+  font-weight: bold;
+}
+
+.background-layer-rr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('https://www.universityofcalifornia.edu/sites/default/files/styles/article_default_banner/public/lecture-hall.jpeg?h=34bbd072&itok=mfmgaZ99');
+  background-size: cover;
+  background-position: center bottom;
+  /* By doing the background image, I needed to lower the brightness, I needed to reduce the brightness of the header */
+  filter: brightness(60%); 
+  /* Wanted to make sure that the background does not effect the design of the other components */
+  z-index: -1;
+  height: 400px;
+}
+/* I used a lot of home.css and tried to combine into the different text components */
+
+.h1-rr{
+   /* If you want to change the height of the h1, its dealing with the margin top */
+  margin-top: 10x;
+  font-family: 'Arial', sans-serif;
+  font-size: 55px;
+  font-style: bold;
+  position: relative; 
+  z-index: 1; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  color: #fff;
+}
+
+.p-rr{
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  position: relative; 
+  z-index: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: -20px; */
+  color: #fff;
+}

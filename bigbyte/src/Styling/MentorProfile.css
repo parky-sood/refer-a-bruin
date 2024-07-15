@@ -1,0 +1,148 @@
+/* button.resume-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+} */
+.resume-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accept-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.decline-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profile-picture{
+    width:100px;
+    height:100px;
+    margin-bottom: -20px;
+}
+
+.linkedin-link {
+    display: inline-block;
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.bio{
+    border: 1px solid #ccc; /* Adjust border style and color as needed */
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.referal{
+    margin-right: 20px;
+}
+
+.form-button{
+    background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius:5px; 
+     padding: 8px 16px;
+     font-style: bold;
+}
+
+.form-button:hover {
+   background-color: #0e59a9;
+}
+
+.container-mp {
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+.left-button-mp{
+    margin-left: 30px;
+}
+
+.list-mp {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-mp li {
+    margin-bottom: 10px;
+  }
+  
+  .list-mp li button {
+    margin-left: 10px;
+  }
+
+  .delete-button{
+    margin-left: 50px;
+
+  }
+  .delete-button:hover{
+    margin-left: 50px;
+    background-color: red;
+    
+  }
+
+  .internship-title {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+
+/* CSS for the divider */
+.dividerr, .divider-bottom {
+    height: 5px;
+    width: 700px; 
+    /* Controls the length of the divider */
+    background-color: black;
+    justify-content: center;
+    position:center;
+ 
+    margin: 10px auto 40px;
+    /* margin below the divider */
+    border-color: black;
+}
+.dividerr-top {
+    box-shadow: 10px 5px 6px rgba(0, 0, 0, 0.554);
+    margin-bottom: 25px;
+}
+
+.title-mp{
+margin-top: 20px;
+margin-bottom: 20px;
+}

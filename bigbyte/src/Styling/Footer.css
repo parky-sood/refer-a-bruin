@@ -1,0 +1,70 @@
+/* Footer.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px; 
+  font-family: 'Arial', sans-serif;
+  color: #dbd7d7;
+  box-shadow: 3 3px 5px rgba(154, 147, 147, 0.542); 
+  /* Add padding between the components above the footer */
+  margin-top: 50px;
+ 
+}
+
+  /* Want the shadow effect, might have to do it later */
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  /* Gives space between logo, title, and contact*/
+  justify-content: space-between; 
+}
+/* Controlling the size of the logo  */
+.footer-logo {
+  width: 100px; 
+}
+
+.footer-title,
+.footer-contact {
+  /* grow to fill available space */
+  flex: 1; 
+  text-align: center;
+}
+/*"Refer a Bruin"*/
+.footer-title {
+  font-weight: bold; 
+  color: #fff; 
+  margin-top: 0px;
+  font-size: 30px;
+  padding: 5px 10px; 
+}
+/* "Contact Us" */
+.footer-contact {
+  font-weight: bold; 
+  margin-top: 15px;
+  font-size: 18px;
+  color: #fff; 
+  margin-left: 20px; 
+}
+
+/* Image for email */
+.email-icon {
+  /* Want small appearance and to be next to support email */
+  width: 25px; 
+  height: auto; 
+  margin-right: 5px; 
+}
+/* Adds space to the text on the bottom of connect with us */
+.email-container {
+  padding-left: 40px;
+}
+/* The small text after the line*/
+.footer-info{
+  font-weight: bold; 
+  color: #fff; 
+}

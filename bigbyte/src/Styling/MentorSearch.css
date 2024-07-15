@@ -1,0 +1,75 @@
+
+/* Mentor Search.css */
+
+
+.linkedin-link-ms {
+    /* creates linked in for the mentor search */
+
+    display: inline-block;
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+/* Add this CSS to position the filters on the side */
+.container-fluid {
+    display: flex;
+  }
+  
+  .filters-container {
+    /*position the filters to the side */
+
+    flex: 0 0 250px; 
+    padding: 20px; 
+  }
+  
+  .mentors-container {
+    flex: 1; 
+    padding: 20px; 
+  }
+  
+  /* Style of the filters*/
+  .form-group {
+    /* creates space between forms  */
+    margin-bottom: 20px; 
+  }
+  
+  /* Optionally, you can add styling to the Apply and Reset buttons */
+  .btn-apply-filters,
+  .btn-reset-filters {
+    width: 100%;
+    margin-bottom: 10px; /* Add some spacing between buttons */
+  }
+  
+
+    .filters-container {
+      flex: 1; 
+  
+    .mentors-container {
+      flex: 1; 
+    }
+  }
+
+  .mentor-card {
+    width: 100%; /* Ensure the card spans the full width of its container */
+    margin-bottom: 20px; /* Add some space between cards */
+  }
+  
+  .company {
+    font-weight: bold;
+  }
+  
+  .bio {
+    /* Use Flexbox to ensure text wraps properly */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Apply specific styles to each Card.Text component */
+  .card-text {
+    margin-bottom: 10px; /* Add some space between text lines */
+  }
+  

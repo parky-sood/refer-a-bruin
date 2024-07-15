@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #fff;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    padding: 70px;
+    padding-bottom: 70px;
+    /* Copied Login's css */
+    border-radius: 10px;
+    /* want a good box shadow */
+    box-shadow: 10px 5px 6px rgba(0, 0, 0, 0.554);
+    /* Added max-width for responsiveness */
+    max-width: 400px;
+    /* Center content horizontally */
+    text-align: center; 
+    justify-content: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px; /* Increased margin bottom */
+    text-align: left; /* Align form elements to the left */
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin bottom */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border-color: #007bff;
+}
+
+.signup-btn[type="submit"] {
+    padding: 12px 20px; /* Increased padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Added margin top */
+    transition: background-color 0.3s;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.signup-btn[type="submit"]:hover {
+    background-color: #0e59a9;
+}
+
+.right-side-img{
+    position: fixed;
+    top: 0;
+    /* makes it go on the right side */
+    right: 0;
+    width: 60%; 
+    height: 100%;
+     /* Does the background image in order to be changed  */
+    background-image: url('https://getwallpapers.com/wallpaper/full/1/4/2/1481674-top-ucla-wallpaper-2167x1734-for-ipad.jpg');
+    background-size: cover;
+    background-position: center;
+     /* makes sure that it is behind the other components as it is also a component */
+    z-index: -1;
+}
+/* 
+.h1 {
+    margin-top: 100px;
+    font-size: 23px;
+     position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%; 
+     z-index: 1; 
+     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    color: #fff; 
+  }
+  /*
+  .p {
+    font-size: 15px;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%; 
+    z-index: 1;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff; 
+  }
+   */

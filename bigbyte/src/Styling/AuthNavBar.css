@@ -1,0 +1,56 @@
+/* AuthNavbar.css */
+.fixed-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Example background color */
+    padding: 0 20px;
+    width: 100%;
+}
+
+.fixed-top img {
+    width: 100px; /* Adjust based on your logo size */
+}
+
+.nav-links, .center-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center nav-links */
+    flex-grow: 1; /* Allow nav-links to take up available space */
+    margin: 0 20px; /* Add margin to separate from logo and right-links */
+    padding: 0;
+}
+
+.nav-links li, .center-links li {
+    padding: 0 20px; /* Space between each link */
+}
+
+.nav-links li a, .center-links li a {
+    color: white; /* Link color */
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav-links li a:hover, .center-links li a:hover {
+    background-color: #111; /* Hover effect */
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+}
+
+.right-links a {
+    margin-left: 20px; /* Space between each right link */
+    color: white; /* Link color */
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.right-links a:hover {
+    background-color: #111; /* Hover effect */
+}
+
+.right-li {
+    margin-left: 950px;
+}
