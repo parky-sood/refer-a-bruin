@@ -1,5 +1,5 @@
 ## Project Title:
-    bigbytessquad
+    Refer-a-Bruin
 
 ## Project Description:
     One goal of the university is to get an internship. However, in most cases, it is a catch-22 where you need experience to get experience. However, attending a school like UCLA provides students with a vast network of alumni. The goal of this application will be to create a platform that connects students to alumni with the goal of alumni advocating for UCLA students.
@@ -8,9 +8,9 @@
 
 ## Installation Process:
     1. Clone from GitHub repo
-    2. Navigate to the bigbytes/bigbyte directory and create the following file to store and initialize the Firebase API keys:
+    2. Navigate to the refer-a-bruin/bigbyte directory and create the following file to store and initialize the Firebase API keys:
         - .env
-    3. Navigate to the bigbytes root directory and execute the start script start_app.sh which does the following: 
+    3. Navigate to the refer-a-bruin root directory and execute the start script start_app.sh which does the following: 
         - installs all Firebase and Firebase Admin dependencies
         - installs npm throughout the project
         - navigates to the front end and back end folders, installs npm, and starts both servers to effectively launch the application
